@@ -100,8 +100,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="section ">
-        <div className="p-8 rounded-lg mb-24 flex flex-col items-center gap-32">
+      <div className="section p-8 md:p-12">
+        <div className="p-0 md:p-8 rounded-lg mb-24 flex flex-col items-center gap-32">
           <div className="text-3xl font-semibold w-4/5 md:w-3/5 md:text-5xl text-center">
             How SHAYPRAM simplifies cargo shipping
           </div>
@@ -154,7 +154,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="flex-1 flex-col pb-6 md:pb-0 md:pr-12 items-center border-b-2 md:border-b-0 border-[#171f2224]">
+            <div className="flex-1 flex-col pb-6 md:pb-0 md:pr-12 items-center border-[#171f2224]">
               <div className="tracking-wider text-xl mb-4 flex items-start gap-4">
                 <div className="w-12 h-12 grid place-items-center bg-[#171f2228] rounded-full">
                   <span>4</span>
@@ -220,7 +220,7 @@ function App() {
             hazardous cargo with full capacity to distribute nationwide.
           </div>
         </div>
-        <div className="p-12 flex flex-col items-center justify-start gap-8 border-b-2 md:border-b-0 md:border-r-2 border-[#171f2224] hover:bg-[#171f220d] hover:cursor-pointer h-full transition-all">
+        <div className="p-12 flex flex-col items-center justify-start gap-8 hover:bg-[#171f220d] hover:cursor-pointer h-full transition-all">
           <div>
             <TbFidgetSpinner size={40} />
           </div>
