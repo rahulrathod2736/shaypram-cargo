@@ -13,10 +13,12 @@ function App() {
       <div className="bg-white fixed w-full drop-shadow-2xl top-0 left-0">
         <div className="p-8 mx-auto max-w-[1280px] flex flex-col gap-8 items-center justify-between md:flex-row">
           <div className="flex flex-col">
-            <span className="text-3xl font-medium">SHAYPRAM</span>
+            <span className="text-3xl font-medium text-slate-900">
+              SHAYPRAM
+            </span>
             <span className="uppercase text-slate-400">Cargo & Logistics</span>
           </div>
-          <div className="flex gap-8">
+          <div className="flex gap-8 text-black">
             <span className="cursor-pointer">Home</span>
             <span className="cursor-pointer">Track Order</span>
             <span className="cursor-pointer">Request Quote</span>
@@ -228,7 +230,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-slate-100">
+      <div className="bg-slate-100 text-black">
         <div className="section text-center bg-slate-100">
           <span>Copyright © 2023 Cargo and Logistics Management</span>
         </div>
